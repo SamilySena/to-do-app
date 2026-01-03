@@ -10,7 +10,7 @@ Um aplicativo de gerenciamento de tarefas minimalista e moderno, desenvolvido em
 
 ## 🎯 Sobre o Projeto
 
-Este é um aplicativo desktop completo para gerenciamento de tarefas (to-do list) com design clean e minimalista. Permite criar, editar, organizar e acompanhar suas tarefas diárias de forma simples e eficiente.
+Este é um aplicativo completo para gerenciamento de tarefas (to-do list) com design clean e minimalista. Permite criar, editar, organizar e acompanhar suas tarefas diárias de forma simples e eficiente.
 
 ## ✨ Funcionalidades
 
@@ -28,7 +28,7 @@ Este é um aplicativo desktop completo para gerenciamento de tarefas (to-do list
 ## 🎨 Design
 
 Interface minimalista com:
-- Paleta de cores monocromática (preto, branco, cinza)
+- Paleta de cores em tons pasteis
 - Tipografia clean e legível
 - Seletores circulares para conclusão
 - Sistema de cores para categorização (vermelho, azul, verde, amarelo, roxo)
