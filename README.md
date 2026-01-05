@@ -154,12 +154,15 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Samily Sena, Nycolle Khetlem e Katarine Meira
 
+Samily Sena:
 - GitHub: [@nomenome]
 - LinkedIn: [Seu Nome]
-  
+
+Nycolle Khetlem:  
 - GitHub: [@nomenome]
 - LinkedIn: [Seu Nome]
-  
+
+Katarine Meira:  
 - GitHub: [@nomenome]
 - LinkedIn: [Seu Nome]
 
