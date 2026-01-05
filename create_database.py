@@ -1,21 +1,24 @@
 import sqlite3
 
-conn = sqlite3.connect('tarefas.db')
-cursor = conn.cursor()
+class Database:
+    def __init__(self):
+        self.conn = sqlite3.connect("tarefas.db")
+        self.cursor = self.conn.cursor()
 
-cursor.execute('''
-    CREATE TABLE IF NOT EXISTS tarefas(
-        id INTERGER PRIMARY KEY,
-        titulo TEXT NOT NULL,
-        descricao TEXT,
-        prioridade TEXT NOT NULL,
-        cor TEXT NOT NULL,
-        status TEXT NOT NULL,
-        data_criacao TEXT NOT NULL,
-        data_conclusao TEXT
-    )                  
-''')
+    def criar_tabela(self):
+        self.cursor.execute("""
+            CREATE TABLE IF NOT EXISTS tarefas (
+                id INTEGER PRIMARY KEY,
+                titulo TEXT NOT NULL,
+                descricao TEXT,
+                prioridade TEXT NOT NULL,
+                cor TEXT NOT NULL,
+                status TEXT NOT NULL,
+                data_criacao TEXT NOT NULL,
+                data_conclusao TEXT
+            )
+        """)
+        self.conn.commit()
 
-conn.commit()
-conn.close()
-print("Banco de dados criado com sucesso!")
+    def fechar(self):
+        self.conn.close()
