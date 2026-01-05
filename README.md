@@ -152,8 +152,14 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Samily Sena e Nycolle Khetlem
+## 👨‍💻 Samily Sena, Nycolle Khetlem e Katarine Meira
 
+- GitHub: [@nomenome]
+- LinkedIn: [Seu Nome]
+  
+- GitHub: [@nomenome]
+- LinkedIn: [Seu Nome]
+  
 - GitHub: [@nomenome]
 - LinkedIn: [Seu Nome]
 
