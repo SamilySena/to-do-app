@@ -13,20 +13,5 @@ class ToDo:
         self.db = Database()
         self.db.criar_tabela()
         
-        self.db.painel_principal()
-    
-    def painel_principal(self):
-         
-         #limpar a tela principal
-        for widget in self.root.winfo_children():
-            widget.destroy()  
-        
-        tk.label(
-            self.root,
-            text="Minhas Tarefas",
-            font=("Arial", 20, "bold", "italic"),
-            bg="ffffff",
-            fg="333333"
-        ).pack(pady=20)   
-
+        self.db.criar_painel_principal()
     
