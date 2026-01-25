@@ -7,8 +7,8 @@ class ToDo:
     def __init__(self, root):
         self.root = root
         self.root.title("Minhas Tarefas")
-        self.root.goemetry("400x600")
-        self.root.configure(bg="fafafa")
+        self.root.geometry("400x600")
+        self.root.configure(bg="#fafafa")
         
         self.db = Database()
         self.db.criar_tabela()
@@ -21,11 +21,11 @@ class ToDo:
         for widget in self.root.winfo_children():
             widget.destroy()  
         
-        tk.label(
+        tk.Label(
             self.root,
             text="Minhas Tarefas",
             font=("Arial", 20, "bold", "italic"),
-            bg="ffffff",
-            fg="333333"
+            bg="#ffffff",
+            fg="#333333"
         ).pack(pady=20)   
     
